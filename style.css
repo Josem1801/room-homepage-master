@@ -271,7 +271,11 @@ width: 75%;
         min-width: 280px;
     }
     .header__nav{
-        display: none;
+        position: absolute;
+        visibility: hidden;
+        width: 100%;
+        visibility: hidden;
+        transition: background .4s ease-in;
     }
     .header__logo{
         display: flex;
@@ -284,13 +288,19 @@ width: 75%;
         left: 30px;
         top: 2em;
         cursor: pointer;
-        transition: .3s;
+        z-index: 99;
+    }
+    .header__nav-active{
+        visibility: visible;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: 5em;
+        background: var(--Black);
     }
     .header__hamburger:hover{
         transform: scaleY(1.4);
-    }
-    .header__hamburger--active{
-        
     }
     .hero__bottom{
         display: flex;
