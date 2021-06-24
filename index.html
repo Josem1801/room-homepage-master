@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Room homepage</title>
+
+</head>
+<body>
+  <header class="header">
+    <div class="header__hamburger">
+      <img src="./images/icon-hamburger.svg" alt="">
+    </div>
+    <div class="header__logo"><img src="./images/logo.svg" alt="room"></div>
+    <nav class="header__nav">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contract">Contact</a>
+    </nav>
+  </header>
+  <main class="hero">
+    <!--Carrusel-->
+    <div class="hero__carrusel">
+      <div class="hero__carrusel--images">
+        <div id='carrusel' class="hero__carrusel--container">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+      </div>
+      <div class="hero__carrusel--controller">
+        <button id="btn-left"><img src="./images/icon-angle-left.svg" alt=""></button>
+        <button id="btn-right"><img src="./images/icon-angle-right.svg" alt=""></button>
+      </div>
+    </div>
+    <section class="hero__description">
+      <div class="hero__description--carrusel" id="carrusel-text">
+        <div class="hero__description--text">
+          <title>Discover innovative ways to decorate</title>
+          <p>
+            We provide unmatched quality, comfort, and style for property owners across the country. 
+            Our experts combine form and function in bringing your vision to life. Create a room in your 
+            own style with our collection and make your property a reflection of you and what you love.
+          </p>
+          <a href="" class="hero__description--button">Shop now <img src="./images/icon-arrow.svg" alt=""></a>
+        </div>
+        
+        <div class="hero__description--text">
+          <title>We are available all across the globe</title>
+          <p>
+            With stores all over the world, it's easy for you to find furniture for your home or place of business. 
+            Locally, we’re in most major cities throughout the country. Find the branch nearest you using our 
+            store locator. Any questions? Don't hesitate to contact us today.  
+          </p>
+          <a href="" class="hero__description--button">Shop now <img src="./images/icon-arrow.svg" alt=""></a>
+        </div>
+
+        <div class="hero__description--text">
+          <title>Manufactured with the best materials</title>
+            <p>
+              Our modern furniture store provide a high level of quality. Our company has invested in advanced technology 
+              to ensure that every product is made as perfect and as consistent as possible. With three decades of 
+              experience in this industry, we understand what customers want for their home and office.    
+            </p>
+          <a href="" class="hero__description--button">Shop now <img src="./images/icon-arrow.svg" alt=""></a>
+        </div>
+      </div>
+    </section>
+    
+    <div class="hero__bottom">
+      <div class="hero__bottom--img">
+        <img src="./images/image-about-dark.jpg" alt="Sillas">
+      </div>
+      <div class="hero__bottom--about">
+        <h1>About our furniture</h1>
+        <p>      
+          Our multifunctional collection blends design and function to suit your individual taste.
+          Make each room unique, or pick a cohesive theme that best express your interests and what
+          inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+          or anything in between. Product specialists are available to help you create your dream space.
+        </p>
+      </div>
+      <div class="hero__bottom--img">
+        <img src="./images/image-about-light.jpg" alt="Sillas">
+      </div>
+    </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
+
